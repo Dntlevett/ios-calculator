@@ -31,6 +31,10 @@
   background-color: rgb(72, 71, 71);
   color: white;
   width: 5rem;
+  // outline: none;
+  border: none;
+  margin: 0.2rem;
+
   //   padding: 1rem;
   //   margin: 0.4rem;
   &__spl {
@@ -48,6 +52,8 @@
   width: 5rem;
   background-color: orange;
   color: white;
+  border: none;
+  margin: 0.2rem;
   &__alt {
     background-color: lightgray;
     color: black;
@@ -67,6 +73,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 20rem;
+  padding: 0.5rem;
 }
 // .row5 {
 //   display: flex;
